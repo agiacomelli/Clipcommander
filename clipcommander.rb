@@ -8,7 +8,7 @@
 require 'clipboard'
 
 cxp = ""
-storage = open("/home/adx/clips.ccr","a")
+storage = open("/tmp/clips.ccr","a")
 cxp = Clipboard.paste
 storage.puts cxp
 storage.close

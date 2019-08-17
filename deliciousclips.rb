@@ -2,7 +2,7 @@
 
 require 'clipboard'
 
-File.delete("/home/adx/clips.ccr")
+File.delete("/tmp/clips.ccr")
 Clipboard.clear
 
 

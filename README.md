@@ -16,4 +16,4 @@ For now it's just these three small ruby scripts. I will provide installation gu
 
 It comes without saying that this only makes sense, if you're able to define some custom keybindings on your computer.
 
-With Linux this is done very easily, with macOs, too, with Windows -: who cares?
+With Linux this is done very easily, with macOS, too, with Windows -: who cares?

@@ -29,6 +29,8 @@ Deletes the stack and clears the clipboard
 ## Example bindings with I3
 
 bindsym $mod+c exec /home/user/bin/clipcommander.rb
+
 bindsym $mod+p exec /home/user/bin/pasteryclips.rb
+
 bindsym $mod+x exec /home/user/bin/deliciousclips.rb
 

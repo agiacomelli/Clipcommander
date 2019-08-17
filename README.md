@@ -1,6 +1,5 @@
 # Clipcommander
-## Three little programs to bring fun back to work
-## and, by the way, to save you a lot of time
+**Three little programs to bring fun back to work and, by the way, to save you a lot of time**
 
 What it basically does is it stacks the content of the clipboard to a file in order to process multiple clipboard
 entries at one time.
@@ -17,3 +16,19 @@ For now it's just these three small ruby scripts. I will provide installation gu
 It comes without saying that this only makes sense, if you're able to define some custom keybindings on your computer.
 
 With Linux this is done very easily, with macOS, too, with Windows -: who cares?
+
+# clipcommander.rb
+Copies content from the clipboard to the stack
+
+# pasteryclips.rb
+Copies the stack back to the clipboard
+
+# deliciousclips.rb
+Deletes the stack and clears the clipboard
+
+## Example bindings with I3
+
+bindsym $mod+c exec /home/user/bin/clipcommander.rb
+bindsym $mod+p exec /home/user/bin/pasteryclips.rb
+bindsym $mod+x exec /home/user/bin/deliciousclips.rb
+
